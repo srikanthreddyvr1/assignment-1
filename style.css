@@ -1,0 +1,75 @@
+img{
+
+    float: right;
+    overflow: auto;
+    border: solid blue;
+}
+
+
+
+.d{
+
+    padding: 30px;
+    width: 1180px;
+    height: 150px;
+    clear: left;
+    border: solid green;
+}
+p::first-line {
+    color: #7f99ff;
+    font-variant: small-caps;
+}
+h2::after {
+    content: url(images.png);
+
+}
+h1::before {
+    content: url(images.png);
+
+}
+#myDIV {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+#DIV2 {
+    position: relative;
+    top: 80px;
+    left: 30px;
+    width: 100px;
+    height: 50px;
+    background-color: coral;
+    border: 1px solid black;
+}
+p:nth-child(3) {
+    background: #ff0000;
+}
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+#d {
+    background-color: lightgrey;
+    width: 100px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
+}
