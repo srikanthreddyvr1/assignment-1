@@ -3,10 +3,8 @@ img{
     float: right;
     overflow: auto;
     border: solid blue;
+    z-index: -1;
 }
-
-
-
 .d{
 
     padding: 30px;
@@ -15,7 +13,7 @@ img{
     clear: left;
     border: solid green;
 }
-p::first-line {
+div::first-line {
     color: #7f99ff;
     font-variant: small-caps;
 }
